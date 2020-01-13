@@ -29,7 +29,7 @@ storiesOf('Accordion', module)
     () => (
       <Accordion>
         <AccordionItem
-          title={text('The title (title)', 'Section 1 title [updated]')}
+          title={text('The title (title)', 'Section 1 title [updated again]')}
           open={boolean('Open the section (open)', false)}
           {...props}>
           <p>
